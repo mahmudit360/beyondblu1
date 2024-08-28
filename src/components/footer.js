@@ -101,7 +101,7 @@ export default () => {
         <div className="py-4 text-center">
           <a href="https://gottmanconnect.com">
             <img
-              src="https://gottmanconnect.com/public/img/gottman_checkup_badge.png"
+              src={require("../images/gottman_checkup_badge.png")}
               height="202"
               width="320"
               alt="Gottman Approved Member"
