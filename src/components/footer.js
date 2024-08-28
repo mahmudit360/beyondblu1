@@ -95,10 +95,8 @@ export default () => {
           </div>
         </div>
         <hr />
-        <div className="py-6 text-center lg:text-left">
-          © {new Date().getFullYear()}@beyondbleu.com. All rights reserved.
-        </div>
-        <div className="py-4 text-center">
+        <div className="py-6 text-center lg:text-left flex items-center justify-between">
+          <div>© {new Date().getFullYear()}@beyondbleu.com. All rights reserved.</div>
           <a href="https://gottmanconnect.com">
             <img
               src={require("../images/gottman_checkup_badge.png")}
