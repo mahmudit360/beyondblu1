@@ -42,6 +42,14 @@ export default () => {
             <div>
               <strong>{t("Monday to Sunday (Everyday)")}</strong> 9:00~18:00      
             </div>
+                <a href="https://gottmanconnect.com">
+            <img
+              src={require("../images/gottman_checkup_badge.png")}
+              height="202"
+              width="320"
+              alt="Gottman Approved Member"
+            />
+          </a>
           </div>
           <div className="lg:w-1/4 ml-auto text-center lg:text-left p-5 pt-10">
             <h2 className="b-line text-3xl"> {t("Sitemap")}</h2>
@@ -97,14 +105,7 @@ export default () => {
         <hr />
         <div className="py-6 text-center lg:text-left flex items-center justify-between">
           <div>© {new Date().getFullYear()}@beyondbleu.com. All rights reserved.</div>
-          <a href="https://gottmanconnect.com">
-            <img
-              src={require("../images/gottman_checkup_badge.png")}
-              height="202"
-              width="320"
-              alt="Gottman Approved Member"
-            />
-          </a>
+          
         </div>
       </div>
     </footer>
