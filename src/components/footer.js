@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import Link from "./app_link"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { useTranslation } from "react-i18next"
+import Link from "./app_link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
 
 export default () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   useEffect(() => {
     // Initialize Histats tracking script
@@ -28,8 +28,6 @@ export default () => {
     };
   }, []);
 
-
-  
   return (
     <footer className="bg-white relative">
       <div className="container">
@@ -100,16 +98,17 @@ export default () => {
         <div className="py-6 text-center lg:text-left">
           © {new Date().getFullYear()}@beyondbleu.com. All rights reserved.
         </div>
-    <a href="https://gottmanconnect.com">
-      <img
-src={require("https://gottmanconnect.com/public/img/gottman_checkup_badge.png")}
-    
-        height="202"
-        width="320"
-        alt="Gottman Approved Member"
-      />
-    </a> 
+        <div className="py-4 text-center">
+          <a href="https://gottmanconnect.com">
+            <img
+              src="https://gottmanconnect.com/public/img/gottman_checkup_badge.png"
+              height="202"
+              width="320"
+              alt="Gottman Approved Member"
+            />
+          </a>
+        </div>
       </div>
     </footer>
-  )
+  );
 }
