@@ -102,7 +102,8 @@ export default () => {
         </div>
     <a href="https://gottmanconnect.com">
       <img
-        src="https://gottmanconnect.com/public/img/gottman_checkup_badge.png"
+src={require("https://gottmanconnect.com/public/img/gottman_checkup_badge.png")}
+    
         height="202"
         width="320"
         alt="Gottman Approved Member"
