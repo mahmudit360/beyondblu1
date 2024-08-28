@@ -100,6 +100,7 @@ export default () => {
         <div className="py-6 text-center lg:text-left">
           © {new Date().getFullYear()}@beyondbleu.com. All rights reserved.
         </div>
+                  <a href="https://gottmanconnect.com"><img src="https://gottmanconnect.com/public/img/gottman_checkup_badge.png" height="202" width="320" alt="Gottman Approved Member" /></a> 
       </div>
     </footer>
   )
