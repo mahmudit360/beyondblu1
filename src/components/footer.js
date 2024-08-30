@@ -31,7 +31,7 @@ export default () => {
   return (
     <footer className="bg-white relative">
       <div className="container">
-        <div className="lg:flex lg:py-6">
+        <div className="lg:flex lg:pt-6">
           <div className="lg:w-2/4 text-center lg:text-left py-5">
             <img
               src={require("../images/beyond-bleu.svg")}
